@@ -6,11 +6,11 @@ import LogoutBtn from "./Header/LogoutBtn";
 import RTE from "./RTE";
 import SignUp from "./SignUp";
 
-import PostForm from "./PostForm/POstForm";
+import PostForm from "./PostForm/PostForm";
 import PostCard from "./PostCard";
 import AuthLayOut from "./AuthLayOut"
 import Button from "./Button";
-import Input from "./INput";
+import Input from "./Input";
 import Select from "./Select";
 
 
