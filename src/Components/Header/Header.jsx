@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import {useSelector } from 'react-redux/es/hooks/useSelector'
 import { useNavigate } from 'react-router-dom'
 
+
 function Header() {
     const authStatus = useSelector((state)=>state.auth.status)
 
@@ -23,7 +24,7 @@ function Header() {
       {
           name: "Signup",
           slug: "/signup",
-          active: !authStatus,
+          active: !authStatus,                                                 
       },
       {
           name: "All Posts",
